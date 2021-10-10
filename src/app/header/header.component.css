@@ -1,0 +1,36 @@
+
+.nav-item{
+    padding:2px;
+    margin-left: 7px;
+}
+
+.header img {
+    float: left;
+    width: 100px; 
+    height: 100px;
+    background: #555;
+  }
+  
+  /* .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  } */
+
+
+
+  .header-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section > div {
+    width: calc(100% / 4);
+}
+
+@media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+        text-align: center;
+    }
+}

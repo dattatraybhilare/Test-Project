@@ -1,0 +1,35 @@
+
+<div id="wrapper">
+  <div id="page-content-wrapper">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              {{ today | date : 'EEEE, MMMM - d - yyyy' }}         
+            </div>
+              <div class="col-lg-12">
+                <body><marquee  width="60%"  height="100px">Welcome Dr.Foo Here is your day at a glance</marquee></body> 
+                 
+             </div>          
+          </div>
+      </div>
+      <table style="width:98%;margin-left: 1%;text-align:left;border-collapse:collapse;background-color:gold;">
+        <tr style="background-color:yellowgreen;color:white;">
+          <th>Appointments:</th>
+          <th>Number of Patients Attended:(No. of Completed, No. of Pending)</th>
+          <th>Procedures Scheduled:</th>
+          <th>Today’s Clinic Hours:</th>
+        </tr>
+        <tr>
+          <td>250</td>
+          <td>250:(100,150)</td>
+          <td>50</td>
+          <td>5:00 P.M. to 8:00 P.M.</td>
+        </tr>
+      </table>
+
+  </div>
+  
+</div>
+<footer>
+  <p  class="text-xs-center">© Copyright 2021. All rights reserved.</p>
+</footer>
